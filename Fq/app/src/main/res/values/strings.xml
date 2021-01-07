@@ -1,13 +1,71 @@
 <resources>
     <string name="app_name">Fq</string>
-    <string name="text_alcohol">What is farming?</string>
-    <string name="text_coffee">How important is agriculture to the overall economy?</string>
-    <string name="text_pasta">Why is agriculture important?</string>
-    <string name="text_cold_drinks">What is soil health?</string>
-    <string name="crop_insurance">What is crop insurance? </string>
-    <string name="land_cleaing">What is land cleaning or clearing?</string>
+    <string name="text_alcohol">1.What is farming?</string>
+    <string name="text_coffee">2.How important is agriculture to the overall economy?</string>
+    <string name="text_pasta">3.Why is agriculture important?</string>
+    <string name="text_cold_drinks">4.What is soil health?</string>
+    <string name="crop_insurance">5.What is crop insurance? </string>
+    <string name="land_cleaing">6.What is land cleaning or clearing?</string>
+    <string name="branches">7.What are the branches of agriculture?</string>
+    <string name="family_">8.Are family farms disappearing?</string>
+    <string name="khsarif">9.What is Kharif Crops?</string>
+    <string name="rabi">10.What is Rabi Crops?</string>
+    <string name="zaid">11.What is Zaid Crops?</string>
+    <string name="soil_sutable">12.Which soil is most suitable for agriculture?
+?</string>
+
+
     <string name="text_expanded">Expanded</string>
     <string name="text_collapsed">Collapsed</string>
+
+    <string-array name="soil_sutable">
+    <item>All over the country, different types of soil could be found and each type has unique <phys></phys>ical, chemical and biological characteristics. Alluvial soil is considered as the most fertile soil containing potassium in it and is suitable for agricultural crops like sugarcane, paddy and plantain. Red soil has high iron content and is used for gram, groundnut and castor seed cultivation. Black soil has high calcium, magnesium and potassium used of chilly, jowar, cotton, oilseed and maize cultivation. Finally, sandy soil has low nutrient content, but is useful in growing crops like coconut.
+
+</item>
+    </string-array>
+
+
+    <string-array name="branch_ans">
+    <item>The different branches of agriculture are horticulture, aquaculture, dairy farming, organic farming, poultry, sericulture, vermiculture and market gardening. If the broad definition of agriculture is taken into consideration then it could also involve branches, like seed technology, Nematology, plant breeding and genetics, soil science, agronomy etc.
+</item>
+    </string-array>
+
+    <string-array name="rabhi_">
+    <item>The name “Rabi” means “spring” – a word derived from Arabic.\n
+The crops that are grown in the winter season and harvested in the spring are called Rabi crops.\n
+Wheat, gram, and mustard are some of the Rabi crops.\n
+Various agricultural practices are carried out to produce new crop varieties.\n
+Such crops require a warm climate for the germination and maturation of seeds. \nThey, however, require a cold climate for their growth.
+
+</item>
+    </string-array>
+
+    <string-array name="zaid_">
+    <item>Such crops are grown between the Kharif and Rabi seasons, i.e., between March and June./n
+These crops mature early./n
+Cucumber, pumpkin, bitter gourd, and watermelon are zaid crops.
+
+</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="grow_crop_ans">
+        <item>Farmers need to understand the local growing conditions, soil requirements, crop compatibility, etc. to have a successful farming business. The basic knowledge of cultivation along with the required resources helps farmers to grow their crops</item>
+    </string-array>
+
+    <string-array name="family_grow">
+        <item>No. In fact, family farms make up the majority of farms in the US, both large and small. According to USDA, 93% of farms grossing over $1 million a year are family-owned.</item>
+    </string-array>
+    <string-array name="kharif">
+        <item>The crops which are grown in the monsoon season are known as Kharif crops. For eg., maize, millet, and cotton.\n
+The seeds are sown at the beginning of monsoon season and harvested at the end of the monsoon season.\n
+Such crops require a lot of water and hot weather for proper growth.
+</item>
+    </string-array>
 
 
     <string-array name="string_array_alcohol">

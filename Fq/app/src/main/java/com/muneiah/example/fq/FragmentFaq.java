@@ -144,12 +144,18 @@ public class FragmentFaq extends Fragment {
         listDataGroup.add(getString(R.string.text_coffee));
         listDataGroup.add(getString(R.string.text_pasta));
         listDataGroup.add(getString(R.string.text_cold_drinks));
-        listDataGroup.add(getString(R.string.land_cleaing));
         listDataGroup.add(getString(R.string.crop_insurance));
+        listDataGroup.add(getString(R.string.land_cleaing));
+        listDataGroup.add(getString(R.string.family_));
+        listDataGroup.add(getString(R.string.khsarif));
+        listDataGroup.add(getString(R.string.rabi));
+        listDataGroup.add(getString(R.string.zaid));
+        listDataGroup.add(getString(R.string.soil_sutable));
 
         // array of strings
         String[] array;
 
+        /*0*/
         // list of alcohol
         List<String> alcoholList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_alcohol);
@@ -157,35 +163,66 @@ public class FragmentFaq extends Fragment {
             alcoholList.add(item);
         }
 
-        // list of coffee
+        // list of coffee 1
         List<String> coffeeList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_coffee);
         for (String item : array) {
             coffeeList.add(item);
         }
 
-        // list of pasta
+        // list of pasta 2
         List<String> pastaList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_pasta);
         for (String item : array) {
             pastaList.add(item);
         }
 
-        // list of cold drinks
+        // list of cold drinks 3
         List<String> coldDrinkList = new ArrayList<>();
         array = getResources().getStringArray(R.array.string_array_cold_drinks);
         for (String item : array) {
             coldDrinkList.add(item);
         }
-        // list of cold drinks
+        // list of cold drinks 4
         List<String> cleing = new ArrayList<>();
         array = getResources().getStringArray(R.array.land_clean);
         for (String item : array) {
             cleing.add(item);
         }
-        // list of cold drinks
+        // list of cold drinks 5
         List<String> insurence = new ArrayList<>();
         array = getResources().getStringArray(R.array.crop_insurence);
+        for (String item : array) {
+            insurence.add(item);
+        }
+//6
+        List<String> familily = new ArrayList<>();
+        array = getResources().getStringArray(R.array.family_grow);
+        for (String item : array) {
+            insurence.add(item);
+        }
+        //7
+        List<String> karif = new ArrayList<>();
+        array = getResources().getStringArray(R.array.kharif);
+        for (String item : array) {
+            insurence.add(item);
+        }
+        //8
+        List<String> rabi = new ArrayList<>();
+        array = getResources().getStringArray(R.array.rabhi_);
+        for (String item : array) {
+            insurence.add(item);
+        }
+
+        //9
+        List<String> famzaidilily = new ArrayList<>();
+        array = getResources().getStringArray(R.array.zaid_);
+        for (String item : array) {
+            insurence.add(item);
+        }
+//10
+        List<String> sutab = new ArrayList<>();
+        array = getResources().getStringArray(R.array.soil_sutable);
         for (String item : array) {
             insurence.add(item);
         }
@@ -197,6 +234,11 @@ public class FragmentFaq extends Fragment {
         listDataChild.put(listDataGroup.get(3), coldDrinkList);
         listDataChild.put(listDataGroup.get(4), cleing);
         listDataChild.put(listDataGroup.get(5), insurence);
+        listDataChild.put(listDataGroup.get(6), familily);
+        listDataChild.put(listDataGroup.get(7), karif);
+        listDataChild.put(listDataGroup.get(8), rabi);
+        listDataChild.put(listDataGroup.get(9), famzaidilily);
+        listDataChild.put(listDataGroup.get(10), sutab);
 
         // notify the adapter
         expandableListViewAdapter.notifyDataSetChanged();
