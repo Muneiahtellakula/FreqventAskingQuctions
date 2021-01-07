@@ -28,10 +28,25 @@ ActivityMainBinding binding;
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
-              /*  Log.i("ding",response.body());
+                Log.i("ding",response.body());
                 Toast.makeText(MainActivity.this, ""+response.body(), Toast.LENGTH_SHORT).show();
-            */
+
                 try {
+                    JSONObject rootObj = new JSONObject(response.body());
+                    JSONArray rootAry=rootObj.getJSONArray("questions");
+                   // for(int i = 0; i>=rootObj.length(); i++){
+                        JSONObject itemsObj=rootAry.getJSONObject(0);
+                        String res_qu=itemsObj.getString("question");
+                        String res_qans=itemsObj.getString("answer");
+                        binding.textView.setText(res_qu);
+                        binding.textView2.setText(res_qans);
+                  //  }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+               /* try {
                     JSONObject rootObj=new JSONObject(response.body());
                     JSONArray rootAry=rootObj.getJSONArray("items");
                     JSONObject itemsObj=rootAry.getJSONObject(0);
@@ -42,7 +57,7 @@ ActivityMainBinding binding;
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                }
+                }*/
             }
 
             @Override

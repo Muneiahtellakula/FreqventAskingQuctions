@@ -5,7 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class RetrofitService {
-    public static final  String BASEURL="https://www.googleapis.com/";
+    //public static final  String BASEURL="https://www.googleapis.com/";
+    public static final  String BASEURL="https://raw.githubusercontent.com";
    // public static final  String BASEURL="https://api.covid19api.com/";
     static Retrofit retrofit;
     public static Retrofit getRetrofit(){
